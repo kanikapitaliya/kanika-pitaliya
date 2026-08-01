@@ -36,7 +36,7 @@ export const personalDetails: PersonalDetails = {
     'Cloud ML infrastructure',
   ],
   location: 'India',
-  email: 'kanikapitaliya.tech@gmail.com',
+  email: 'kanikapitaliya@gmail.com',
   github: 'https://github.com/kanikapitaliya',
   linkedin: 'https://linkedin.com/in/kanika-pitaliya',
   resumeUrl: '/resume/resume.pdf',
@@ -256,7 +256,7 @@ export const projects: Project[] = [
       'Vector databases',
       'Knowledge retrieval',
     ],
-    githubUrl: 'https://github.com/kanikapitaliya',
+    githubUrl: 'https://github.com/kanikapitaliya/rag-data-engineering-assistant',
   },
   {
     id: 'meetmaxxing',
@@ -302,7 +302,7 @@ export const projects: Project[] = [
       'LLM observability',
       'Real-time AI workflows',
     ],
-    githubUrl: 'https://github.com/kanikapitaliya',
+    githubUrl: 'https://github.com/darshan-gowdaa/MeetMaxxing',
   },
   {
     id: 'startup-valuation-analysis',
@@ -348,7 +348,7 @@ export const projects: Project[] = [
       'Distribution transformation',
       'Business interpretation',
     ],
-    githubUrl: 'https://github.com/kanikapitaliya',
+    githubUrl: 'https://github.com/kanikapitaliya/startup_valuation_analysis',
   },
 ];
 

@@ -36,7 +36,7 @@ export const personalDetails: PersonalDetails = {
     'Cloud ML infrastructure',
   ],
   location: 'India',
-  email: 'kanikapitaliya@gmail.com',
+  email: 'kanikapitaliya.tech@gmail.com',
   github: 'https://github.com/kanikapitaliya',
   linkedin: 'https://linkedin.com/in/kanika-pitaliya',
   resumeUrl: '/resume/resume.pdf',

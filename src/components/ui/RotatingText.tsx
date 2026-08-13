@@ -15,11 +15,12 @@ export function RotatingText({ items, intervalMs = 2800 }: RotatingTextProps) {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % items.length);
     }, intervalMs);
+
     return () => clearInterval(timer);
   }, [items.length, intervalMs]);
 
   return (
-    <span className="inline-block relative min-w-[200px] h-[1.3em] overflow-hidden align-bottom text-emerald-400 font-mono">
+    <span className="inline-block relative w-[280px] sm:w-[340px] lg:w-[420px] h-[1.3em] overflow-hidden align-bottom text-emerald-400 font-mono">
       <AnimatePresence mode="wait">
         <motion.span
           key={items[index]}
@@ -27,7 +28,7 @@ export function RotatingText({ items, intervalMs = 2800 }: RotatingTextProps) {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: -24, opacity: 0 }}
           transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-          className="absolute left-0 top-0 whitespace-nowrap font-semibold"
+          className="absolute inset-x-0 top-0 whitespace-nowrap font-semibold text-center"
         >
           {items[index]}
         </motion.span>

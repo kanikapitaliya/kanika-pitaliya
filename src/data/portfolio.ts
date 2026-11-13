@@ -90,7 +90,7 @@ export const skillCategories: SkillCategory[] = [
       'Agentic AI',
       'Multi-Agent Systems',
       'Prompt Engineering',
-      'NLP',
+      'Natural Language Processing (NLP)',
       'Embeddings',
       'Semantic Search',
       'Vector Retrieval',
@@ -108,7 +108,6 @@ export const skillCategories: SkillCategory[] = [
       'A2A',
       'Lyzr',
       'Sentence-Transformers',
-      'Langfuse',
       'OpenTelemetry',
     ],
   },
@@ -119,7 +118,6 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       'SQL',
       'MySQL',
-      'PostgreSQL',
       'ChromaDB',
       'Qdrant',
       'Vector Databases',
@@ -138,7 +136,6 @@ export const skillCategories: SkillCategory[] = [
       'Gradio',
       'Git',
       'GitHub',
-      'REST APIs',
       'C#',
       '.NET Framework',
       'Object-Oriented Programming',
@@ -151,9 +148,9 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       'TensorFlow',
       'PyTorch',
-      'Keras',
       'Pandas',
       'NumPy',
+      'Neural Networks'
     ],
   },
 ];
@@ -173,6 +170,7 @@ export const timelineItems: TimelineItem[] = [
       'Programming',
       'Databases',
       'Mathematical Foundations',
+      'Operating Systems',
     ],
   },
   {
@@ -191,6 +189,7 @@ export const timelineItems: TimelineItem[] = [
       'OOP',
       'Solid Edge',
       'Software Automation',
+      'Computer-aided Designs (CAD)',
     ],
   },
   {
@@ -209,6 +208,8 @@ export const timelineItems: TimelineItem[] = [
       'Generative AI',
       'Data Engineering',
       'Analytics',
+      'Neural Networks',
+      'Data Visualisation',
     ],
   },
 ];
@@ -379,26 +380,26 @@ export const achievements: Achievement[] = [
 export const certifications: Certification[] = [
   {
     id: 'stanford-ml',
-    title: 'Supervised Machine Learning: Regression and Classification',
-    issuer: 'DeepLearning.AI / Stanford Online',
+    title: 'Artificial Intelligence & Machine Learning Fundamentals',
+    issuer: 'Infosys Springboard',
     date: 'Certified',
   },
   {
     id: 'ibm-python-ds',
-    title: 'Python for Data Science, AI & Development',
-    issuer: 'IBM',
+    title: 'Big Data, Artificial Intelligence & Ethics',
+    issuer: 'Cousera',
     date: 'Certified',
   },
   {
     id: 'ibm-intro-ai',
-    title: 'Introduction to Artificial Intelligence',
-    issuer: 'IBM',
+    title: 'AWS Cloud Computing',
+    issuer: 'AWS Academy',
     date: 'Certified',
   },
   {
     id: 'ibm-python-project',
-    title: 'Python Project for Data Science',
-    issuer: 'IBM',
+    title: 'Programming using Python',
+    issuer: 'NPTEL',
     date: 'Certified',
   },
 ];

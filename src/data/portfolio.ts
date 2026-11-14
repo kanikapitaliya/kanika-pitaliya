@@ -131,7 +131,6 @@ export const skillCategories: SkillCategory[] = [
     category: 'ENGINEERING',
     description: 'Production web APIs, modular OOP architectures, and automation tools.',
     skills: [
-      'FastAPI',
       'Streamlit',
       'Gradio',
       'Git',
